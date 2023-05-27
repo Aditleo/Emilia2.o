@@ -40,7 +40,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("⚙ Bᴏᴛ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ ⚙", url='https://t.me/+aOWzY1w5cZ44MzJl')
             ],[
-            InlineKeyboardButton("🖥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🖥", callback_data="help")
+            InlineKeyboardButton("🖥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🖥", url='https://t.me/+aL4WSRBkqiZmYmY1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
